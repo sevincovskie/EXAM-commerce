@@ -1,0 +1,442 @@
+*{
+    list-style-type: none;
+}
+#sign-in-bg{
+    position: absolute;
+    background: black;
+    width: 100%;
+    height: 950vh;
+    z-index: 2;
+    opacity: 0.6;
+    display: none;
+}
+
+#navbar-responsive{display: none;}
+#categories-responsive{display: none;}
+#FAQ-responsive{display: none;}
+.login{
+    display: none;
+    top: 20%;
+    position: absolute;
+    z-index: 2;
+    background: #fff;
+    width: 28%;
+    right: 37%;
+    height: 50%;
+    padding: 30px;
+}
+.login .close-login-btn{
+    position: absolute;
+    margin-left: 0;
+    /* top: 0; */
+    border-radius: 50%;
+    padding: 3px 10px;
+    bottom: 96%;
+    background: black;
+    color: #fff;
+    left: 95%;
+    border: 2px solid #fff;
+}
+.login .email{
+    border: 1px solid #b5afaf;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login .email input{
+    border: none;
+    width: 100%;
+}
+.login .email input:focus{
+    outline: none;
+}
+.login .name{
+    margin-top: 15px;
+    border: 1px solid #b5afaf;
+    padding: 5px;
+    border-radius: 5px;
+}
+
+.login .name input{
+    border: none;
+    width: 100%;
+}
+.login .name input:focus{
+    outline: none;
+}
+.login button{
+    width: 100%;
+    border: none;
+    background: #1515ff;
+    color: #fff;
+    padding: 8px;
+    margin-top: 15px;
+    border-radius: 8px;
+}
+.login button:hover{
+    background-color: black;
+    color: #fff;
+}
+
+.shoes-item{
+    position: absolute;
+    background: #fff;
+    left: 100%;
+    width: 700px;
+    top: 0;
+    font-size: 15px;
+    padding: 20px 15px;
+    border: 1px solid #e7e2e2;
+    display: none;
+    
+}
+
+.stove li{
+    margin-top: 15px;
+}
+.shoes li{
+    margin-top: 15px;
+}
+.shoes-item ul li a{
+    margin-left: 0;
+}
+#header-top{
+    background-color: #f5f5f5;
+    height: 40px;
+}
+.number,span{
+    margin-right: 10px;
+}
+.exchange{
+    position: relative;
+}
+.exchange-item{
+    display: none;
+    background: #fff;
+    padding: 5px 18px;
+    border-radius: 5px;
+    position: absolute;
+    top: 25px;
+    box-shadow: 1px 2px 2px black;
+    right: 12px
+}
+.blog-items{
+    display: none;
+    position: absolute;
+    background: #fff;
+    z-index: 1;
+    border: 1px solid #cec9c9;
+    border-radius: 8px;
+    padding: 10;
+    font-size: 15px;
+    left: 48%;
+}
+.blog-items ul {
+    display: block;
+    padding: 10px 80px 10px 10px;
+}
+.blog-items ul li{
+    margin-top: 10px;
+}
+.exchange,a{
+    color: black;
+    text-decoration: none;
+}
+.exchange,a,i{
+    margin-left: 10px;
+}
+.search .categories select:focus{
+    outline: none;
+}
+.categories {
+    position: relative;
+    background-color: #f5f5f5;
+    border-radius: 30px;
+    padding: 10px;
+}
+.categories > select {
+    background: none;
+    border: none;
+    width: 20%;
+    height: 35px;
+}
+
+.categories > input {
+    width: 60%;
+    height: 35px;
+    border: none;
+    background: none;
+}
+.categories > input:focus{
+    outline: none;
+}
+.categories > button {
+    top: 0;
+    border:none ;
+    background: #015ade;
+    color: #fff;
+    height: 100%;
+    position: absolute;
+    width: 20%;
+    border-radius: 0 30px 30px 0;
+}
+.row, .logo{
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.row, .logo > img{
+    margin-right: 10px;
+}
+#navbar{
+    margin-top: 15px;
+    border-top: 1px solid #c5c2c2;
+    padding-top: 15px;
+}
+.count{
+    position: absolute;
+    background: blue;
+    border-radius: 50%;
+    padding: 1px 7px;
+    font-size: 13px;
+    color: #fff;
+    bottom: 20px;
+    right: 30px;
+}
+.categories-item{
+    position: absolute;
+    background-color: #fff;
+    z-index: 1;
+    left: 10px;
+    border: 1px solid #f9f9f9;
+    padding: 8px;
+    top: 35px;
+    border-radius: 5px;
+    width: 30%;
+    display: none;
+}
+.categories-item >ul > li{
+    margin-top: 20px;
+}
+.nav-links, ul{
+    display: flex;
+}
+ul{
+    padding: 0;
+}
+.nav-links > ul > li{
+    list-style-type: none;
+    margin-right: 35px;
+    font-size: 20px;
+} 
+.sign-in > ul > li{
+    font-size: 20px;
+    list-style-type: none;
+} 
+.sign-in > ul > li > a > i{
+    margin-right: 12px;
+} 
+.sign-in{
+    display: flex;
+    justify-content: end;
+}
+.categories-btn > i{
+    margin-right: 12px;
+    color: blue;
+}
+
+#navbar .signIn-item{
+    display: none;
+    position: absolute;
+    background: #fff;
+    z-index: 1;
+    top: 205px;
+    width: 12%;
+    right: 348px;
+    font-size: 15px;
+    padding: 15px;
+}
+#navbar .signIn-item ul li{
+    list-style-type: none;
+    margin-top: 15px;
+    border-bottom: 1px solid #e0dcdc;
+    padding-bottom: 10px;
+}
+
+#No-sidebar{
+    background-color: #f5f5f5;
+}
+#images .images img{display: none;}
+footer{
+    background-color: #f5f5f5;
+}
+#shipping .item{
+    display: flex;
+    align-items: center;
+    background-color: #f5f5f5;
+}
+
+#shipping .item .icon{
+    font-size: 40px;
+    margin-right: 10px;
+}
+
+#shipping .container{
+    border-bottom: 1px solid rgb(177, 175, 175);
+    padding-bottom: 18px;
+}
+#FAQ .social-media ul li a i{
+    background-color: #fff;
+    margin-right: 5px;
+    border-radius: 50%;
+    padding: 15px;
+    width: 47px;
+    height: 45px;
+    border: 1px solid #c2bfbf;
+
+}
+
+#FAQ .information ul li{margin-top: 25px;}
+#FAQ .category ul li{ margin-top: 25px;}
+#FAQ .contact-us ul{display: block !important;}
+#FAQ .contact-us ul li{margin-top: 25px;}
+
+#FAQ .contact-us ul li i{
+    font-size: 25px;
+    color: blue;
+    margin-right: 10px;
+}
+#electronic-accesories a{
+    margin-left: 20px;
+}
+
+#electronic-accesories .container{
+    border-top: 1px solid rgb(177, 175, 175);
+    padding-top: 30px;
+}
+#end .container{
+    border-top: 1px solid rgb(177, 175, 175);
+    padding-top: 15px;
+}
+
+#shop{
+    background-color: #f5f5f5;
+    height: 80px;
+}
+
+
+
+#cards .card{
+    padding: 0;
+    margin: 10px;
+    width: 48%;
+    border-radius: 10px !important;
+    position: relative;
+}
+#cards .card:hover{
+    box-shadow: 0px 0px 7px 1px #b1acac;
+}
+#cards .card img{
+    border-radius: 10px 10px 0 0;
+    width: 100%;
+    height: 360px;
+    object-fit: cover;
+}
+
+#cards .day{
+    position: absolute;
+    color: #fff;
+    top: 10px;
+    left: 20px;
+    border-radius: 0px 8px 8px 0px;
+    font-size: 20px;
+}
+#cards .card-body .comment{
+    font-size: 14px;
+    border-bottom: 1px solid #e4e2e2;
+    padding-bottom: 15px;
+}
+#cards .card-body .comment a{margin-left: 0; margin-right: 10px;}
+#cards .card-body .comment a i{margin-left: 0; margin-right: 10px;}
+#cards .read-more-btn button{
+    border: none;
+    border-radius: 5px;
+    background-color: #015ade;
+    color: #fff;
+    padding: 8px 15px;
+}
+
+#cards .day button{
+    border: none;
+    color: #fff;
+    background: #1515ff;
+    border-radius: 5px;
+    padding: 5px 8px;
+    font-size: 15px;
+}
+#cards .owl-nav{
+    position: absolute;
+    top: -100px;
+    right: 0;
+    font-size: 55px;
+    display: block !important;
+}
+
+#cards .card:hover .img-link{
+    /* From https://css.glass */
+    position: absolute;
+    width: 100%;
+    height: 59%;
+/* From https://css.glass */
+background: rgba(255, 255, 255, 0.25);
+border-radius: 8px 8px 0 0;
+box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+backdrop-filter: blur(1.3px);
+-webkit-backdrop-filter: blur(1.3px);
+border: 1px solid rgba(255, 255, 255, 0.3);
+
+}
+
+.link{
+    display: none;
+}
+.link a i{
+    margin-left: 0 !important;
+    background: black;
+    border-radius: 50%;
+    padding: 8px;
+    color: #fff;
+    border: 2px solid blue;
+}
+.link a i:hover{
+    background-color: #054ade;
+    color: #fff;
+}
+#cards .card:hover .link{
+    display: block;
+    position: absolute;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+}
+
+.nosidebar-count ul li{margin-left: 15px;}
+.nosidebar-count ul li a{margin-left: 0;}
+.active-count{
+    background: blue;
+    padding: 5px 10px;
+    color: #fff;
+}
+
+.active-count:hover{
+    color: #fff;
+}
+@media only screen and (max-width: 780px){
+    #cards .card{width: 100%;}
+    #shipping{display: none;}
+
+    #FAQ{padding-top: 10px;}
+}
